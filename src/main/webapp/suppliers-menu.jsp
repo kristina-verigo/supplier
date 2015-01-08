@@ -16,11 +16,11 @@
         <link rel="stylesheet" href="resources/css/bootstrap.min.css">
         <script src="resources/js/bootstrap.min.js"></script>
         <link href="resources/css/supplier.css" rel="stylesheet">
-        <title>Clients menu Page</title>
+        <title>Suppliers menu Page</title>
     </head>
     <body>
         <div class="container">
-            <h3>Users menu</h3>
+            <h3>Suppliers menu</h3>
             <br>
             <h4>
                 <span class="glyphicon glyphicon-user"></span>
