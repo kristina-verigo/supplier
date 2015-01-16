@@ -15,7 +15,7 @@
     </head>
     <body>
         <div class="container">
-            <h3>Rating's operations menu</h3>
+            <h3>Система оценки поставщиков. Операции рейтинга</h3>
             <br>
             <h4>
                 <span class="glyphicon glyphicon-user"></span>
@@ -37,11 +37,11 @@
             <br>
 
             <form class="form-signin" method="GET" action="/supplier/webresources/links/create">
-                <input name = "paramSupplierName" type="text" id="login" class="form-control" placeholder="supplier">   
+                <input name = "paramSupplierName" type="text" id="login" class="form-control" placeholder="поставщик">   
                 <br>
-                <input name = "paramGoodName" type="text" id="name" class="form-control" placeholder="good">
+                <input name = "paramGoodName" type="text" id="name" class="form-control" placeholder="товар">
                 <br>
-                <input name = "paramPercent" type="text" id="name" class="form-control" placeholder="percent">
+                <input name = "paramPercent" type="text" id="name" class="form-control" placeholder="проценты">
                 <br>
                 <br>
 
@@ -50,7 +50,7 @@
                         <td>
 
                             <button class="btn btn-info" type="submit">
-                                <span class="glyphicon glyphicon-plus"></span> Create new credit
+                                <span class="glyphicon glyphicon-bullhorn"></span> Создать новый рейтинг
                             </button>
                             </form>
                         </td>
@@ -61,7 +61,7 @@
                         <td>
                             <form action="ratings-menu.jsp">
                                 <button class="btn btn-info">
-                                    <span class="glyphicon glyphicon-user"></span> Back to link menu
+                                    <span class="glyphicon glyphicon-bullhorn"></span> В меню рейтинга
                                 </button>
                             </form>
                         </td>

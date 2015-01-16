@@ -21,7 +21,7 @@
     </head>
     <body>
         <div class="container">
-            <h3>Goods menu</h3>
+            <h3>Система оценки поставщиков. Меню товаров</h3>
             <br>
             <h4>
                 <span class="glyphicon glyphicon-user"></span>
@@ -44,9 +44,9 @@
 
             <table class="table table-striped">
                 <tr>
-                    <th>ID</th>
-                    <th>Name</th>
-                    <th>Date</th>
+                    <th>Номер</th>
+                    <th>Название</th>
+                    <th>Дата</th>
                 </tr>
                 <%
                     GoodService goodService = (GoodService) SpringFactory.getspringApplicationContext().getBean("goodService");
@@ -90,7 +90,7 @@
                     <td>
                         <form action="goods-operations.jsp">
                             <button class="btn btn-info" type="submit">
-                                <span class="glyphicon glyphicon-shopping-cart"></span> Goods operations
+                                <span class="glyphicon glyphicon-shopping-cart"></span> Операции по товарам
                             </button>
                         </form>
                     </td>
@@ -100,7 +100,7 @@
                     <td>
                         <form action="main-menu.jsp">
                             <button class="btn btn-info" type="submit">
-                                <span class="glyphicon glyphicon-home"></span> Back to main menu
+                                <span class="glyphicon glyphicon-home"></span> B главное меню
                             </button>
                         </form>
                     </td>

@@ -15,7 +15,7 @@
     </head>
     <body>
         <div class="container">
-            <h3>Goods operations menu</h3>
+            <h3>Система оценки поставщиков. Операции по товарам</h3>
             <br>
             <h4>
                 <span class="glyphicon glyphicon-user"></span>
@@ -36,7 +36,7 @@
             </h4>
             <br>
             <form class="form-signin" method="GET" action="/supplier/webresources/goods/create">
-                <input name = "paramName" type="text" id="name" class="form-control" placeholder="name">
+                <input name = "paramName" type="text" id="name" class="form-control" placeholder="название">
                 <br>          
 
                 <table>
@@ -44,7 +44,7 @@
                         <td>
 
                             <button class="btn btn-info" type="submit">
-                                <span class="glyphicon glyphicon-shopping-cart"></span> Create new goods
+                                <span class="glyphicon glyphicon-shopping-cart"></span> Создать нвоый товар
                             </button>
                             </form>
                         </td>
@@ -53,9 +53,9 @@
                         </td>
 
                         <td>
-                            <form action="loans-menu.jsp">
+                            <form action="goods-menu.jsp">
                                 <button class="btn btn-info">
-                                    <span class="glyphicon glyphicon-shopping-cart"></span> Back to goods menu
+                                    <span class="glyphicon glyphicon-shopping-cart"></span> В меню товаров
                                 </button>
                             </form>
                         </td>

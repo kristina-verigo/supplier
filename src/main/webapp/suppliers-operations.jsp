@@ -15,7 +15,7 @@
     </head>
     <body>
         <div class="container">
-            <h3>Suppliers operations menu</h3>
+            <h3>Система оценки поставщиков. Операции поставщиков</h3>
             <br>
             <h4>
                 <span class="glyphicon glyphicon-user"></span>
@@ -36,7 +36,7 @@
             </h4>
             <br>
             <form class="form-signin" method="GET" action="/supplier/webresources/suppliers/create">
-                <input name = "paramName" type="text" id="login" class="form-control" placeholder="name">   
+                <input name = "paramName" type="text" id="login" class="form-control" placeholder="Название">   
                 <br>          
 
                 <table>
@@ -44,7 +44,7 @@
                         <td>
 
                             <button class="btn btn-info" type="submit">
-                                <span class="glyphicon glyphicon-lock"></span> Create new supplier
+                                <span class="glyphicon glyphicon-lock"></span> Создать поставщика
                             </button>
                             </form>
                         </td>
@@ -55,7 +55,7 @@
                         <td>
                             <form action="suppliers-menu.jsp">
                                 <button class="btn btn-info">
-                                    <span class="glyphicon glyphicon-user"></span> Back to suppliers menu
+                                    <span class="glyphicon glyphicon-user"></span> В меню поставщиков
                                 </button>
                             </form>
                         </td>

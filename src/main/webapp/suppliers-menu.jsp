@@ -20,7 +20,7 @@
     </head>
     <body>
         <div class="container">
-            <h3>Suppliers menu</h3>
+            <h3>Система оценки поставщиков. Меню поставщиков</h3>
             <br>
             <h4>
                 <span class="glyphicon glyphicon-user"></span>
@@ -44,9 +44,9 @@
 
             <table class="table table-striped">
                 <tr>
-                    <th>Client id</th>
-                    <th>Name</th>
-                    <th>Date</th>
+                    <th>Номер</th>
+                    <th>Название</th>
+                    <th>Дата</th>
                 </tr>
                 <%
                     SupplierService supplierService = (SupplierService) SpringFactory.getspringApplicationContext().getBean("supplierService");
@@ -94,7 +94,7 @@
                     <td>
                         <form action="suppliers-operations.jsp">
                             <button class="btn btn-info" type="submit">
-                                <span class="glyphicon glyphicon-lock"></span> Suppliers operations
+                                <span class="glyphicon glyphicon-lock"></span> Операции поставщиков
                             </button>
                         </form>
                     </td>
@@ -104,7 +104,7 @@
                     <td>
                         <form action="main-menu.jsp">
                             <button class="btn btn-info" type="submit">
-                                <span class="glyphicon glyphicon-home"></span> Back to main menu
+                                <span class="glyphicon glyphicon-home"></span> В главное меню
                             </button>
                         </form>
                     </td>

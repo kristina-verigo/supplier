@@ -15,7 +15,7 @@
     </head>
     <body>
         <div class="container">
-            <h3>Users operations menu</h3>
+            <h3>Система оценки поставщиков. Операции над пользователями</h3>
             <br>
             <h4>
                 <span class="glyphicon glyphicon-user"></span>
@@ -36,13 +36,13 @@
             </h4>
             <br>
             <form class="form-signin" method="GET" action="/supplier/webresources/users/create">
-            <input name = "paramLogin" type="text" id="login" class="form-control" placeholder="login">   
+            <input name = "paramLogin" type="text" id="login" class="form-control" placeholder="логин">   
             <br>
-            <input name = "paramName" type="text" id="name" class="form-control" placeholder="name">                          
+            <input name = "paramName" type="text" id="name" class="form-control" placeholder="имя">                          
             <br>
-            <input name = "paramPassword" type="text" id="password" class="form-control" placeholder="password">
+            <input name = "paramPassword" type="text" id="password" class="form-control" placeholder="пароль">
             <br>
-            <input name = "paramRole" type="text" id="role" class="form-control" placeholder="role">
+            <input name = "paramRole" type="text" id="role" class="form-control" placeholder="роль">
             <br>
             <br>
             
@@ -51,7 +51,7 @@
                     <td>
                         
                             <button class="btn btn-info" type="submit">
-                                <span class="glyphicon glyphicon-user"></span> Create new user
+                                <span class="glyphicon glyphicon-user"></span> Создать нового пользователя
                             </button>
                         </form>
                     </td>
@@ -62,7 +62,7 @@
                     <td>
                         <form action="user-menu.jsp">
                             <button class="btn btn-info">
-                                <span class="glyphicon glyphicon-user"></span> Back to users menu
+                                <span class="glyphicon glyphicon-user"></span> В меню пользователей
                             </button>
                             </form>
                     </td>
