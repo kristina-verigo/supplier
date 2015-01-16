@@ -46,7 +46,7 @@ public class Link {
         this.id = id;
     }
 
-    @Column(name = "CUSTOMER_ID")
+    @Column(name = "SUPPLIER_ID")
     public int getCustomerId() {
         return customerId;
     }
@@ -55,7 +55,7 @@ public class Link {
         this.customerId = customerId;
     }
 
-    @Column(name = "SOFTWARE_ID")
+    @Column(name = "GOOD_ID")
     public int getGoodId() {
         return goodId;
     }
